@@ -1,0 +1,24 @@
+
+
+"""initializing and declaration 
+a=5 #variable name = value 
+print(a) #print (variable name )
+print(type(a))
+b="i have 6 students in class"
+print(b)
+print(type(b))
+c=3.23
+print(type(c))
+datatype :
+int==2,-1,0,1,
+float===2.1,-1.2 ,3.5,
+string==alphabets==everything that is enclosed in quotes ('',"",''' ''') """
+
+#comments:are used for increasing readablily of code and they are non executable part
+"""comments are of 2 type
+1. single line comment : #
+2. multi line coomment  : """ """
+
+liuusrhgtiulrt
+skherhgeagr
+"""
