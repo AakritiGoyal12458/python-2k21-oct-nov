@@ -1,0 +1,134 @@
+"""day = "today it's saturday"
+print(day)
+print(type(day)) """
+
+"""
+rules for naming variables :
+1. alphabets(A-Z :uppercase or a-z :lowercase , underscore(special charcater) and digits(0,9) to name a  varibales.
+2. to start varibale name we can only use alphabets and underscore .
+3. no spaces are allowed while giving varibale names
+4. varibale name should be short and discriptive .
+
+example:
+monthly_expesese : correctr
+Monthly_Expense:correct
+1_Monthly_expense:not correct ....because started with digit 
+monthlyExpense:correct
+Monthly Expense:incorrect  ...because of space 
+"""
+
+#NAME ERRORS
+
+""" message="hope ypou r good"
+print(mesage)
+
+NameError: name 'mesage' is not defined """
+
+
+
+"""name = "mananpreet kaur"
+print(name.title())
+print(name.upper())
+print(name.lower()) """
+
+
+""" first_name = "Aditi"
+second_name ="Gupta"
+#concadinate == Aditi Gupta 
+print(first_name + " "  + second_name)
+print("my classmate name is " + first_name + " "  + second_name) """
+
+#my classmate name is aditi gupta .
+#my classmate name is : as string in print statement.
+#aditi gupta using concadination...i.e store in 2 varibale and then add name .
+
+
+#remove whiteshpace 
+"""fav_language= "     python       "
+print(fav_language)
+##print(fav_language.rstrip())
+##print(fav_language.lstrip())
+print(fav_language.strip()) """
+
+
+
+"""
+a=2
+b=3
+print(str(a+b)+ "\n" ,a-b,"\n" , a*b ,"\n" , a**b ,"\n" , a/b , "\n" ,a%b )
+
+##strings : ' ' , " " , """ """ ...anything enclosed in quotes 
+
+name=jkwafhbilfr
+print(type(name))
+
+"""
+
+
+#import this
+
+
+##LIST : [] AND IT IS COMMA SEPARATED
+
+Cartoons=['shinchan', 'doraemon', 'ben10', 'Dragon balls' , 'oswald' ]
+
+# + ve indexing  0       1           2          3            4
+# -ve indexing    -5        -4            -3          -2            -1
+print(Cartoons)
+print(type(Cartoons))
+
+
+#indexing --starts from 0 ..
+
+"""print("cartoon at 1st index is " +  Cartoons[1].title())
+print("cartoon at 4th index is " +  Cartoons[4].title())
+
+print("cartoon at 0 index is " +  Cartoons[0].title()) """
+print("cartoon at -1 index is " +  Cartoons[-1].title())
+print("cartoon at -3  index is " +  Cartoons[-3].title())
+
+message= "my 1st fav cartoon is " +  Cartoons[0].title() + "."
+print(message)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
