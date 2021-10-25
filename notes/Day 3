@@ -1,0 +1,29 @@
+Cartoons=['shinchan', 'doraemon', 'ben10', 'Dragon balls' , 'oswald' ]
+print(Cartoons)
+print(Cartoons[1])
+print(type(Cartoons ))
+Cartoons.insert(1,'frozen')
+print(Cartoons)
+#acessing the elemnts of list 
+Cartoons[1]
+#add elements in the list 
+#1.append and insert 
+Cartoons.append('narruto')
+Cartoons.insert(1,'frozen')
+#append will add elemnt i the end of the list
+#we can add duplicate/same values also to the list
+Cartoons
+Cartoons.insert(1,'kesrughultg')
+Cartoons.insert(1,2)
+#remove elemnts from list
+#1. remove : removing by value 
+#2. del : del using index
+#3. pop  : remove using index and it will even store the value 
+
+Cartoons.remove("oswald")
+Cartoons
+Cartoons.remove(2) #indexing is not allowed with remove
+store_name = Cartoons.pop(2)
+store_name
+del Cartoons[1]
+Cartoons
