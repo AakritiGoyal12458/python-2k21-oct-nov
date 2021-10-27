@@ -1,0 +1,116 @@
+"""name=['aditi','siddu','subhraneel','vikas']
+print(type(name))
+cartoon='shinchan'
+print(type(cartoon))"""
+
+#list 
+"""vegetables=['tomato','cabbage','cauliflower','ladyfinger','brinjal']
+print(vegetables)"""
+#acess the elements in the list #indexing
+##print(vegetables[0])
+#acess multiple elememts ... slicing
+#slicing --- #1st index is always included and last index is excluded
+##print(vegetables[0:1])
+##print(vegetables[0:2])
+##print(vegetables[0:3])
+##print(vegetables[0:4])
+##
+##print(vegetables[1:3])
+##print(vegetables[4:5])
+##print(vegetables[2:])
+##print(vegetables[1:])
+##print(vegetables[0:])
+##print(vegetables[:2])
+##print(vegetables[:3])
+##print(vegetables[:1])
+##print(vegetables[:0])
+##print(vegetables[:])
+
+
+
+vegetables=['tomato','cabbage','cauliflower','ladyfinger','brinjal']
+
+vegetables.append("corrainder")
+vegetables.append("red chiili")
+
+vegetables.insert(2,"green chillies")
+
+vegetables.insert(2,"tomato")
+
+print(vegetables)
+
+#remove the elements
+
+vegetables.remove("tomato")
+
+
+del vegetables[0]
+print(vegetables)
+
+store_varibale= vegetables.pop(2)
+print(vegetables)
+print(store_varibale)
+
+
+#acess element using negative indexing
+
+print(vegetables[-1])
+print(vegetables[-2])
+
+#try to insert element in the end of list using negative indexing ...
+vegetables.insert(-2,"tomato")
+vegetables.insert(-1,"beetroot")
+
+print(len(vegetables))#8
+vegetables.insert(8,"bellpeper")
+
+
+vegetables.insert(len(vegetables),"yellow bell pepper ")
+print(vegetables)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
