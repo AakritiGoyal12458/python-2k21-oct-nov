@@ -1,0 +1,65 @@
+Cartoons=['shinchan', 'doraemon', 'ben10', 'Dragon balls' , 'oswald' ]
+
+#to insert elements in the end 
+Cartoons.insert(len(Cartoons),'hello')
+#cartoons.insert(10,'gian')
+Cartoons
+Cartoons.insert(4,'sunio')
+
+#organize the list ===sort the list 
+Cartoons.sort()
+Cartoons
+
+nums=[1,6,3,8,2,4,9]  #unsorted list
+nums.sort()#to sort permanently
+nums
+
+nums.sort(reverse=True)
+nums
+
+number=[1,6,3,8,2,4,9]
+sorted(number) #will sort the list temporirly
+number
+
+#reverse the list 
+number.reverse()
+number
+
+number2=[1,6,3,8,2,4,9]
+number2
+
+number2.reverse()
+number2
+number2.reverse()
+
+
+len(number2)
+#indexing=len-1
+#index error
+number2[7]
+
+
+
+#can we create an empty list?   yes 
+name=[]
+type(name)
+name[-1] #you are trying to acess element 
+names = ['aakriti','siddu','subhraneel']
+#output.... aakriti
+#           siddu
+#           subhraneel
+
+#for loop
+for name in names:
+    print(name)
+    
+#for cat in cats ...for item in list_of_item
+
+cats = ['kitty','tom','jerry']
+for cat in cats:
+    #Kitty is the best cat
+    #i cannot wait to see KITTY 
+    print(cat.title() + " is the best cat " )
+    print("i cannot wait to see "+ cat.upper() + "\n")
+    
+print("these 3 cats are best")
