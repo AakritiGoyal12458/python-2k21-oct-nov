@@ -1,0 +1,68 @@
+'''#organizing a list
+
+#anything which is enclosed in square braclkets and is seprated by comma 
+cartoons=["B","A","D","C"] #created a list 
+cartoons.sort() #sorted the list #list name.sort() #sort is called as method 
+print(cartoons) #print(list name)
+cartoons.sort(reverse=True)
+print(cartoons)
+
+#sort the list temporirly
+cars=["Br","Ag","Dt","Ct"]
+print(sorted(cars))
+print(cars)
+cars.reverse()
+print(cars)
+
+#lenghth of the list
+print(len(cars))
+#add audi to the list cars
+cars.append("audi")
+print(cars)
+cars.insert(1,"bugaati")
+print(cars)
+
+magician=['alice','david','caroline']
+for name in magician:
+    print(name)
+
+cats=['tom','toto','tisha']
+print(type(cats))
+for cat in cats:
+    print(cat)'''
+
+#strings : anything that is stored in quotes... ' ' , "" , ''' ''' .
+
+a='aakriti'
+b="prashant"
+c='''1'''
+print(type(a))
+print(type(b))
+print(type(c))
+print(a.title())
+print(b.upper())
+print(c)
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
