@@ -11,23 +11,27 @@ print(cartoons)
 cars=["Br","Ag","Dt","Ct"]
 print(sorted(cars))
 print(cars)
-cars.reverse()
+cars.reverse() #reverse the original list 
 print(cars)
 
 #lenghth of the list
 print(len(cars))
 #add audi to the list cars
-cars.append("audi")
+cars.append("audi") #add in the last position 
 print(cars)
 cars.insert(1,"bugaati")
 print(cars)
+#insert an element in the end using insert method
+cars.insert(len(cars),"kia")
 
+#loop 
+#to acess all the elements using loop 
 magician=['alice','david','caroline']
 for name in magician:
     print(name)
 
 cats=['tom','toto','tisha']
-print(type(cats))
+print(type(cats)) #
 for cat in cats:
     print(cat)'''
 
