@@ -1,0 +1,157 @@
+"""magician=['alice','david','caroline']
+
+#print the lines 1. Alice is a great magician
+                    2. i cant wait to see your next magic alice
+                    3. david is a great magician
+                    4. i cant wait to see your next magic david
+                    5. Caroline is a great magician
+                    6. i cant wait to see your next magic caroline
+                    7. all three magician were great 
+
+                 #using for loop
+
+for magicians in magician:
+    print(magicians + " is a great magician. ")
+    print("i cant wait to see your next magic " +  magicians)
+
+print("all three magician were great")
+
+
+
+#indentation errors   === indntation === 4 white spaces
+# : = colon 
+
+1 
+    2
+    3
+    4
+    5
+    range 
+
+
+for i in range(1,6):
+    print(i)
+for i in range(5,10):
+    print(i)
+
+# [1,2,3,4,5]
+
+number = list(range(1,6))
+print(number)
+
+for i in range(2,13,2):
+    print(i)
+
+
+ 2
+    4
+    6
+    8
+    10
+    12
+print this in a list
+
+
+numbers = list(range(2,13,2))
+print(numbers)
+
+#question === [4,9,16,25,36]
+#squares=[]#we just created an empty list 
+##print(type(squares))
+ for value in range(2,7):
+    square=value**2
+    squares.append(square)
+print(squares) 
+
+squares=[]
+for value in range(2,7):
+    squares.append(value**2)
+print(squares) 
+
+
+squares=[value**2 for value in range(2,7)]
+print(squares)
+
+
+
+
+##minimun : min maximum : max sum : sum 
+
+digits = [1,7,2,8,3,4,5,6]
+print(min(digits))
+print(max(digits))
+print(sum(digits))
+
+
+
+
+#copying the list 
+
+
+my_foods=['pizza','cake','dark-choclate','pasta','chowmein']
+friend_food=my_foods[:]
+print(my_foods)
+print(friend_food)
+
+
+friend_food.append("burger")
+print("after adding burgre to my friend list")
+print(my_foods)
+print(friend_food)
+
+
+my_foods.append("icecream")
+print("after adding icecream to my  list")
+print(my_foods)
+print(friend_food) """
+
+#wrong way of copying the list
+
+foods=['pizza','cake','dark-choclate','pasta','chowmein']
+food2=foods
+print("this list is foods" ,foods)
+print("this list is food2" ,food2)
+foods.append("marshmello")
+print("after adiing marshmello in list foods")
+print("this list is foods" ,foods)
+print("this list is food2" ,food2)
+food2.append("maggiee")
+print("after adiing maggiee in list food2")
+print("this list is foods" ,foods)
+print("this list is food2" ,food2)
+food2.append("momos")
+print("after adiing momos in list food2")
+print("this list is foods" ,foods)
+print("this list is food2" ,food2)
+
+
+
+
+"""name="aditi"
+print(name) #aditi
+name="aakriti"
+print(name) #aakriti """
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
