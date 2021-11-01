@@ -1,0 +1,114 @@
+"""
+age=23
+
+if age<4:
+    print("age is less than 4")
+elif age<18:
+    print("age is less than 18")
+else:
+    print("age is greater than 18")
+
+
+age=2
+
+if age<4:
+    print("age is less than 4")
+if age<18:
+    print("age is less than 18")   
+
+
+food=['pizza','macroni']
+if 'pizza' in food:
+    print("i have pizza in my list" )
+if 'pasta' in food:
+    print("i have my 2nd dish ready")
+if 'macroni' in food:
+    print("i have my 3rd dish ready")
+
+
+list , for --inside for loop i will use if else  
+
+food=['pizza','macroni']
+for items in food:
+    if 'pizza' in items:
+        print("yeah i got pizza in list")
+    elif 'macroni' in items:
+        print("yeah i got macroni in list")
+    else:
+        print("item is not in the list")
+
+
+food=['maggie','pasta']
+if food:
+    for items in food:
+        print("my food item is " + items)
+    print("only this much items in list")
+else:
+    print("are u sure you have items in list") 
+
+available_toppings=['mushrooms', 'olives', 'extra cheese' ,'tomato']
+requested_toppings=['mushrooms','onions','extra cheese']
+
+for requested_topping in requested_toppings:
+    if requested_topping in available_toppings:
+        print("Adding "+ requested_topping+".")
+    else:
+        print("sorry!we don't have " + requested_topping +"." )
+
+print("finshed making your pizza") """
+
+
+
+
+
+"""                                                      DICTIONARIES                                                                       """
+
+#dictionary : key value pairs . 
+aliens_0 = {'color' : 'red' ,'points' : 10}
+print(aliens_0)
+
+print(type(aliens_0))
+
+print(aliens_0['color'])
+print(aliens_0['points'])
+new_points=aliens_0['points']
+
+print("you just earned " + str(new_points) + "  points")
+
+#simplest dictionary : 1 key-value pair
+
+#adding new key value pairs
+aliens_0['name']='vikas'
+aliens_0['Friend1_name']='siddu'
+aliens_0['name']='subhraneel'
+
+print(aliens_0)
+
+#only values van be duplicated. but not keys. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
