@@ -1,0 +1,61 @@
+#creating a list 
+lst = [1, 2, 3]
+print(lst)
+
+#creating a tuple 
+lst = (1, 2, 3)
+print(lst)
+type(print(lst))
+
+
+#creating a set 
+name = {'aditi','subhraneel','vikas','aditi'}
+print(name)
+#using len method to find length of set 
+print(len(name))
+
+"""
+set are unordered, unchangeable and they do not allow duplicate values.
+"""
+numbers = {1, 2, 3, 4, 5}
+values = {True,False}
+print(numbers)
+print(values)
+
+#multiple datatypes can be stored in sets 
+xyz = {0,'apple',False,True,27}
+print(xyz)
+
+"""
+False = 0 and True = 1
+
+3 ways of naming a set 
+1. using set iterator 
+  converting iterators like list , tuple to set 
+"""
+
+new_name = set(['aditi','subhraneel','vikas','aditi'])
+print(new_name)
+print(type(new_name))
+
+new_name = set(('aditi','subhraneel','vikas','aditi'))
+print(new_name)
+print(type(new_name))
+
+#converting strings to set 
+a = set('subhraneel')
+print(a)
+
+#how to print an empty set 
+a = set()
+print(a)
+print(type(a))
+
+#2. using set literal method
+b = {1,2,3}
+print(b)
+
+#3. using iterable unpacking operator 
+x = [1,2,3]
+s = {*x}
+print(s)
