@@ -59,3 +59,132 @@ print(b)
 x = [1,2,3]
 s = {*x}
 print(s)
+
+
+
+"""
+a={0,"apple",3,"siddu", True ,False, 4}
+#set can hold multiple dtaatype 
+#duplicate value are not allowed
+#sets are unordered 
+#TRUE===1 AND FALSE===0  
+print(type(a))
+print(a)
+
+b={76,3,9,2,23,3}
+print(b)
+
+
+a={1,2,3,4}#set
+#adding element to a set
+a.add(5)
+print("the value of a is " , a)
+#add iterable(list,tuple) to a set
+list1=[9,8,7,6]
+# set.update(list)
+a.update(list1)
+#we cannot use update with list 
+#list1.update(a)
+print("the value of a is " , a)
+print("the value of list is " ,list1)
+
+
+b={1,2,3,4}
+c={2,4,6,7,5}
+#1,2,3,4,5,6,7
+d=b.union(c)
+
+print(b)
+print(c)
+print(d)
+
+
+#add,update,remove,clear,pop,del,discard
+
+
+
+b={4,2,3,1}
+a={5,6,2,3}
+c=a.union(b)#union gives us a new set 
+print("the value of a is " ,a)
+print("the value of b is " ,b)
+print("the value of c is " ,c)
+b.update(a)#update don't give us new set 
+print("the value of a is " ,a)
+print("the value of b is " ,b)
+
+
+#2 methods to add : 1. add 2.  update 
+
+
+
+a={4,2,3,1}
+b={5,6,2,3}
+a.remove(4)
+print("the value of a is " ,a)
+#a.remove(5) remove will generate a error when value is not present 
+a.discard(3)
+print("the value of a is " ,a)
+#a.discard(5) discard will not generate a error
+#clear will remove all the elements 
+a.clear() 
+print(a)
+del a # del will remove the set 
+print(a)
+
+a={4,2,3,1}
+#sets are unordered
+#no indexing concept
+print(a)
+
+
+
+
+union and update
+intersection and intersection_update
+diffrence and diffrence_update
+
+
+union , intersection and diffrence crete a new set 
+a={7,9,20,62,0,3}
+b={76,3,9,2,23,3}
+c=a.union(b) #
+d=a.intersection(b)#3,9
+e=a.difference(b)
+f=b.difference(a)
+print(a)
+print(b)
+print(c)
+print(d)
+print(e)
+print(f)
+
+"""
+
+a={7,9,20,62,0,3}
+b={76,3,9,2,23,3}
+"""
+c=a.update(b)
+
+print("the value of a is " ,a)
+print("the value of b is " ,b)
+print("the value of c is " ,c)
+d=a.intersection_update(b)#3,9
+print("the value of a is " ,a)
+print("the value of b is " ,b)
+print("the value of d is " ,d)
+a.difference_update(b)
+print("the value of a is " ,a)
+print("the value of b is " ,b)"""
+
+b.difference_update(a)
+print("the value of a is " ,a)
+print("the value of b is " ,b)
+
+
+
+
+
+
+
+
