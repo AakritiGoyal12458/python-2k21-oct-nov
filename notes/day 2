@@ -6,15 +6,21 @@ print(type(day)) """
 rules for naming variables :
 1. alphabets(A-Z :uppercase or a-z :lowercase , underscore(special charcater) and digits(0,9) to name a  varibales.
 2. to start varibale name we can only use alphabets and underscore .
-3. no spaces are allowed while giving varibale names
+3. no spaces are allowed while giving varibale names . 
 4. varibale name should be short and discriptive .
+
+
+
 
 example:
 monthly_expesese : correctr
 Monthly_Expense:correct
-1_Monthly_expense:not correct ....because started with digit 
+1_Monthly_expense:not correct ....because started with digit and it is underscore separated
 monthlyExpense:correct
 Monthly Expense:incorrect  ...because of space 
+@name = not correct
+_name = correct
+_name_ = correct 
 """
 
 #NAME ERRORS
