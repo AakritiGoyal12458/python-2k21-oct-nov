@@ -1,0 +1,107 @@
+##b={} 
+##print(type(b))
+##
+###what is a empty set ? set()
+##a=set()
+##print(type(a))
+##print(a)
+##
+###dictionary : key value
+##
+##fav_colour={"subhraneel" : "red", "siddu" : "white", "vikas" : "lavender" }
+##print(fav_colour["subhraneel"])
+##
+##aakriti={"name" : "aakriti" , "fav_colour" : "yellow" , "fav_num" : [2,3,4] }
+##print(aakriti)
+##print(aakriti["fav_num"])
+##
+###acess yellow colour
+##print(aakriti["fav_colour"])
+##
+###print the line "her fav colour is yellow . "
+##print("her fav colour is " + aakriti["fav_colour"] )
+##
+###add new key value pair
+##aakriti["cartoon"]="shinchan"
+##print(aakriti)
+##
+###add elements in the empty dictioanry 
+##num={}
+##num["lucky_no"]=2
+##num["fav_no"] =23
+##print(num)
+##
+###modifying a value in a dictionary 
+##num["lucky_no"]=5
+##print("the new lucky no is " , num["lucky_no"] )
+##
+###why we use "," to concadenate
+####5+3=8
+####vikas + saraswat  = vikas saraswat
+####vikas + 5 = not possible 
+##
+###remove a key value pair
+##
+##del num["fav_no"]
+##print(num)
+##
+###tab key 
+##fav_language={
+##    'siddu':'python',
+##    'subhraneel':'python',
+##    'vikas':'python',
+##}
+##print(fav_language)
+##
+### print "aakrit's fav language is python. "
+##print("siddu's fav language is " , fav_language["siddu"] \n "subhraneel's fav language is " , fav_language["subhraneel"]\n "vikas's fav language is",fav_language["vikas"])
+##
+###looping in all key value pairs
+##
+##for key,value in fav_language.items():
+##    print("key:" , key )
+##    print("value:" , value ,"\n") 
+##
+###only print the keys 
+##for language in fav_language:
+##    print(language)
+##
+##for key in fav_language.keys():
+##    print(key)
+##
+
+
+fav_language={
+    'siddu':'python',
+    'subhraneel':'python',
+    'vikas':'python',
+}
+
+friends = ["kajol","divaynshi","nishita","vikas","siddu"]
+
+for name in fav_language.keys():
+    print(name.title()) #Siddu
+
+    if name in friends:
+        print("hi " + name.title() + " I see your fav langauge is "+ fav_language[name].title())
+
+    if name not in friends:
+        print(name.title() +" thank you for writing ths langauge")
+        
+if "kajol"  not in fav_language.keys():
+    print("pls kajol enter a language" )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
