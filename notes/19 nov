@@ -1,0 +1,35 @@
+"""
+def pet(type="NotSpecified",name="notSpecified"):
+    print("i got a " , type) #i got a dog
+    print ("my ", type , "name is ", name )#my dog name is tuffy
+
+pet(name="tuffy",type="dog")
+pet("cat","tom")
+pet("alligator","loki") #positional arguments
+pet("dog")
+pet()
+"""
+##return statement
+def add(a=2,b=3,c=6):
+    return a+b+c
+
+i=int(input("pls enter 1st no : " ))
+j=int(input("pls enter 2nd no : " ))
+k=int(input("pls enter 3rd no : " ))
+l=add(i,j,k)
+print(l)
+
+#make an argumnet optional 
+# aakriti goyal 
+# first_name , last_name , middle_name 
+def name(first_name,last_name, middle_name=''):
+    full_name=first_name + " " + middle_name  + " " + last_name
+    return full_name
+    
+name("dhwani","shah","sharma")
+'dhwani sharma shah'
+name("aakriti"," goyal")
+'aakriti   goyal'
+#shift+tab
+name('vikas','saraswat','sharma')
+'vikas sharma saraswat'
