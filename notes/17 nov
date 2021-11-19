@@ -1,0 +1,45 @@
+##prompt="\n tell me something and I will repeted back to you:"
+##prompt+="\n enter quit to end the programm \n"     # resusing variable
+##
+##message=""
+##while message !="quit":
+##    message=input(prompt)
+##    if message!= "quit":
+##        print(message)
+##
+##
+##    
+##        
+
+
+
+
+
+
+prompt="\n tell me something and I will repeted back to you:"
+prompt+="\n enter quit to end the programm \n"  
+
+active=True
+while active:
+    message=input(prompt)
+    #message=input("\n tell me something and I will repeted back to you: \n enter quit to end the programm \n")
+
+    if message=="quit":
+        active=False
+    else:
+        print(message)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
