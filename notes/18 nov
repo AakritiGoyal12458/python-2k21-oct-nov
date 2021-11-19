@@ -1,0 +1,82 @@
+##how to make a dictionary
+##Fav_places={ 'vikas':'jaipur','aakash':'udaipur','manish': 'chittorgarh'}
+##how to add some key value pair 
+##Fav_places['subharaneel']='mount'
+##print(Fav_places) printing the dictionary 
+###vikas fav placee is jaipur
+##for key,value in Fav_places.items():
+####    print("key is : " , key )
+####    print("value is : ", value)
+##    print(key ," fav place is ", value)
+##
+##for key in Fav_places :
+##    if key=='vikas':
+##        print(key)
+####
+####how many people are there for dinner ?
+##9
+##please wait for the table
+##5
+##your table is ready
+
+
+##number=int(input("how many people are there for dinner ?"))
+##print(number)
+##if number>8:
+##    print("please wait for the table")
+##else:
+##    print("your table is ready")
+
+
+#fuctions : def keyword
+
+##
+##a=3
+##b=2
+##c=a+b
+##print(c)
+##d=5
+##e=9
+##t=d+e
+##print(t)
+##
+##def greet_user(): #function declaration 
+##    """display a simple greeting""" #comments
+##    print("Hello class!") #function defination 
+####
+##greet_user() #function calling
+##greet_user()
+##greet_user()
+##greet_user()
+##greet_user()
+
+
+##def sum(a,b): a and b are parameters 
+##    return a+b
+##
+##print(sum(2,3)) 2,3 are arguments 
+##print(sum(5,9))
+
+##passing some info to function
+def greet_user(username):
+    print("Hello, " + username.title() + "!" )
+##
+##greet_user("abc")
+##greet_user("subharaneel")
+##greet_user("vikas")
+##greet_user("aakriti")
+greet_user("siddu")
+
+
+##def pet(animal_type="cat",pet_name="tom"):
+##    print("\n I have a " + animal_type + "." )
+##    print("\n my " + animal_type + " is " + pet_name.title()+" .")
+##    
+##
+##pet("cat")
+##pet("dog","mukuu")
+##pet()
+##
+
+
+
