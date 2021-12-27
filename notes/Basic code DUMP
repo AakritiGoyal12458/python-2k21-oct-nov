@@ -20,3 +20,58 @@ if 5 > 2:
 O/P 
 five is greater than 2
 abc 
+
+
+##a,b,c="John",1,"true"
+##
+##
+##"""print(a)
+##print(type(a))
+##print(id(a))
+##adreeses of variable"""
+##print(hex(id(a)))
+##print(hex(id(b)))
+##print(hex(id(c)))
+##
+##print(a)
+##print(type(a))
+##print(type(b))
+##print(type(c))
+
+
+
+
+##a=20
+##
+##def introduceMe():
+##    b=10
+##    print("my DOB is ",a)
+##
+##
+##introduceMe()
+##print(a)
+##print(b)
+
+
+##a = 10000000000000000000000000000000000000000000  
+##a = a + 1  
+##print(type(a))  
+##print (a)  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
