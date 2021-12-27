@@ -1,0 +1,202 @@
+An error is basically a mistake or problem in code because of which it will crash or terminate unexpectedly. 
+In most of the cases we will be facing unhandeled error i.e we din't know about that error before hand and we have not created any code to remove/handel that error
+We can have mainly two types of Errors: 
+1. Syntax errors  : caused because of not following coreect syntax  or the proper structure. also called as parsing error . eg not indeting code properly , not putting colon properly . eg ..writing if statement an dnot putting colon 
+2. Logical errors : caused due to incorrect logic even though code is syntatically correct also called as exceptions . occur after passing the syntax case. eg 0/0 syntaxically correcct logically incorreect /undefined we will recive division by zero error .logical error are not limited ..depend on coders and may be hard to find
+
+Syntax Errors are easy to find and fix, they can be found before executing code also.
+
+As Logical errors are syntactically correct to they are hard to find and fix, also they can be found only on run-time.
+
+The Piece of code used: print(dir(locals()['__builtins__']))
+
+For Catching and handling unhandled exceptions and errors we have exception handling in python. 
+
+
+C:\Users\kahii>python
+Python 3.9.6 (tags/v3.9.6:db3ff76, Jun 28 2021, 15:26:21) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+
+
+>>> prin()  
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'prin' is not defined 
+
+
+>>> i=1
+>>> if i ==1
+  File "<stdin>", line 1
+    if i ==1
+            ^
+SyntaxError: invalid syntax
+SyntaxError as we r not following the structure provided by python 
+
+
+>>> while 1
+  File "<stdin>", line 1
+    while 1
+           ^
+SyntaxError: invalid syntax
+
+
+>>> print(dir(locals()['__builtins__']))
+
+to see all the functions , methods and error
+['ArithmeticError', 'AssertionError', 'AttributeError', 'BaseException', 'BlockingIOError', 'BrokenPipeError', 'BufferError', 'BytesWarning', 'ChildProcessError', 'ConnectionAbortedError', 'ConnectionError', 'ConnectionRefusedError', 'ConnectionResetError', 'DeprecationWarning', 'EOFError', 'Ellipsis', 'EnvironmentError', 'Exception', 'False', 'FileExistsError', 'FileNotFoundError', 'FloatingPointError', 'FutureWarning', 'GeneratorExit', 'IOError', 'ImportError', 'ImportWarning', 'IndentationError', 'IndexError', 'InterruptedError', 'IsADirectoryError', 'KeyError', 'KeyboardInterrupt', 'LookupError', 'MemoryError', 'ModuleNotFoundError', 'NameError', 'None', 'NotADirectoryError', 'NotImplemented', 'NotImplementedError', 'OSError', 'OverflowError', 'PendingDeprecationWarning', 'PermissionError', 'ProcessLookupError', 'RecursionError', 'ReferenceError', 'ResourceWarning', 'RuntimeError', 'RuntimeWarning', 'StopAsyncIteration', 'StopIteration', 'SyntaxError', 'SyntaxWarning', 'SystemError', 'SystemExit', 'TabError', 'TimeoutError', 'True', 'TypeError', 'UnboundLocalError', 'UnicodeDecodeError', 'UnicodeEncodeError', 'UnicodeError', 'UnicodeTranslateError', 'UnicodeWarning', 'UserWarning', 'ValueError', 'Warning', 'WindowsError', 'ZeroDivisionError', '__build_class__', '__debug__', '__doc__', '__import__', '__loader__', '__name__', '__package__', '__spec__', 'abs', 'all', 'any', 'ascii', 'bin', 'bool', 'breakpoint', 'bytearray', 'bytes', 'callable', 'chr', 'classmethod', 'compile', 'complex', 'copyright', 'credits', 'delattr', 'dict', 'dir', 'divmod', 'enumerate', 'eval', 'exec', 'exit', 'filter', 'float', 'format', 'frozenset', 'getattr', 'globals', 'hasattr', 'hash', 'help', 'hex', 'id', 'input', 'int', 'isinstance', 'issubclass', 'iter', 'len', 'license', 'list', 'locals', 'map', 'max', 'memoryview', 'min', 'next', 'object', 'oct', 'open', 'ord', 'pow', 'print', 'property', 'quit', 'range', 'repr', 'reversed', 'round', 'set', 'setattr', 'slice', 'sorted', 'staticmethod', 'str', 'sum', 'super', 'tuple', 'type', 'vars', 'zip']
+
+
+let's see logival erorr 
+>>> 0/0
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ZeroDivisionError: division by zero
+>>> 1/0
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ZeroDivisionError: division by zero
+>>> 2/0
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ZeroDivisionError: division by zero
+>>> x=[1,2,3,4,5]
+>>> x[10]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IndexError: list index out of range
+>>> y=(1,2,3,4,5)
+>>> y[0]=70
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'tuple' object does not support item assignment
+
+>>> if 1:
+...      print("hello") #using 5 spaces 
+...      print("okay")#usind tab and 1 space 
+  File "<stdin>", line 3
+    print("okay")
+TabError: inconsistent use of tabs and spaces in indentation
+
+above is structural error or syntax error
+>>> fp = open("10.txt" , "r") #open file in reading mode 
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+FileNotFoundError: [Errno 2] No such file or directory: '10.txt'
+
+
+>>> def f1(a):
+...      print(a)
+...
+>>> f1()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: f1() missing 1 required positional argument: 'a'
+
+
+>>> x=int("str")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: invalid literal for int() with base 10: 'str'
+--its a logical eroor
+>>> z=float("qwerty")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: could not convert string to float: 'qwerty'
+
+>>> w
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'w' is not defined
+
+>>> +
+  File "<stdin>", line 1
+    +
+     ^
+SyntaxError: invalid syntax
+as for addition we need min 2 oprands 
+>>>
+
+error handling : used to handel those unhandeled error at rintime . protect code from crashing during runtime whenever error is encountered . 
+
+
+Try and Except statements are used to catch errors and to protect our program from unexpectedly terminating. 
+try block run code or set of code we have written . if no error in try block then except block will not run but what if there is some error in try block so except block will run and  catch that erroro and prrvent code from crashing . we should always use try blocks where erroro can happen but prevent it using uneccsecarily. 
+
+
+>>> def add():
+...     try:
+...             x=int(input("enter 1st number: "))
+...             y=int(input("enter 2nd number:  " ))
+...             sum=x+y
+...             return sum
+...     except:
+...             print("error")
+...
+>>> add()
+enter 1st number: 1
+enter 2nd number:  2
+3
+>>> add()
+enter 1st number: w
+error
+>>> add()
+enter 1st number: 2
+enter 2nd number:  y
+error
+
+we see that the program run suceesfully without getting terminated beacsue of error . 
+
+now, lets type a program to write reciprocal of a given number . usng multiple except block with try block . 
+ x=[1,2,3,4," ",5,6,0,"a"]
+>>> for i in x:
+...     try:
+...             x=(1/int(i))
+...     except ValueError:#characters cannot be converted into list #all typecasting and value error come under value eerror
+...             print("its value error","\n")
+...     except ZeroDivisionError: as we dividing 1nto 0 
+...             print("ZERO DIVIOSN ERROR","\n" )
+...     except Exception as e:
+...             print("some other error",e)
+...
+its value error
+
+ZERO DIVIOSN ERROR
+
+its value error
+
+
+
+A try statement can have multiple except clauses.
+-----------------------------------------------------------------------------------------------------------------------
+Syntax 1: 
+try: 
+    # code goes here 
+    #may or may not have error	
+except: 
+    # exception code goes here
+   #excepted if eror in try block . 
+Syntax 2: 
+try: 
+    # code goes here 
+except {Exception_type} as e: 
+    # exception code goes here
+
+Syntax 3: 
+try: 
+    # code goes here 
+except {Exception_type 1} : 
+    # exception code goes here
+except {Exception_type 2} : 
+    # exception code goes here
+except {Exception_type 3} : 
+    # exception code goes here
+
+Syntax 4: 
+try: 
+    # code goes here 
+except (Exception_type_1, Exception _type_2, ....}: 
+    # exception code goes here
+
+-----------------------------------------------------------------------------------------------------------------------
+Tip: Try to add this to a file-handling code. 
+-----------------------------------------------------------------------------------------------------------------------
