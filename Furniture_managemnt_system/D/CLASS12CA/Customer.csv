@@ -1,0 +1,7 @@
+Cust_no,Cust_name,Cust_address,Cust_mobile,Cust_mail,Mode_of_payment
+1001,MARY,JAIPUR,125679241,mary@gmail.com,CASH
+1002,JOHN,BEAWAR,8194261624,john@gmail.com,CARD
+1003,MAX,AJMER,9123467851,max@gmail.com,CASH
+1004,SAM,JAIPUR,4235678902,sam12@gmail.com,ONLINE
+1005,NANCY,JAIPUR,1234598756,nancy14@gmail.com,CARD
+1006,RON,AJMER,9234512346,ron@gmail.com,ONLINE
